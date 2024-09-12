@@ -50,15 +50,15 @@
 # # Review
 # create variables for the following :
 # 1. age
-age = 17 #integer variable
+#age = 17 #integer variable
 # 2. name
-name = "Pancho" #string variable
+#name = "Pancho" #string variable
 # 3. song
-song = "When I Was Your Man" #string variable
+#song = "When I Was Your Man" #string variable
 # 4. food
-food = "torta" #string variable
+#food = "torta" #string variable
 # 5. number
-number = 500 #integer variable
+#number = 500 #integer variable
 
 
 # #now include the variables you just made print in the following...
@@ -66,24 +66,24 @@ number = 500 #integer variable
 
 # Once upon a time, there was a [age] old coder named [name].
 #concatination --- + around your variables\
-print("once upon a time, there was a " + str(age) + " old coder named " + name + ".")
-print("there was a number " + str(number) + " as well")
-print("Hello my name is " + name + " and i am " + str(age) + " years old.")
+#print("once upon a time, there was a " + str(age) + " old coder named " + name + ".")
+#print("there was a number " + str(number) + " as well")
+#print("Hello my name is " + name + " and i am " + str(age) + " years old.")
 
 
-date_of_birth = 2021
-number2 = 123
-number3 = 123.456
-number4 = 123.33
-number5 = 4555
+#date_of_birth = 2021
+#number2 = 123
+#number3 = 123.456
+#number4 = 123.33
+#number5 = 4555
 
-print("i was born in " + str(date_of_birth) + " and i have numbers " + str(number2) + " and " + str(number3) + " and " + str(number4) + " and " + str(number5))
-print(f"date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5}")
+#print("i was born in " + str(date_of_birth) + " and i have numbers " + str(number2) + " and " + str(number3) + " and " + str(number4) + " and " + str(number5))
+#print(f"date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5}")
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print(f"{name} liked to hum a song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing")
+#print(f"{name} liked to hum a song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-print(f" Still, {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}'s secret power?")
+#print(f" Still, {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}'s secret power?")
 ##########################################################################################
 
 
@@ -192,30 +192,30 @@ print(f" Still, {name} was the best coder on the team and could write {number} l
 
 ##########################################################################################
 # #addition
-print(2+1)
+#print(2+1)
 # #multiplication
-print(2*2)
+#print(2*2)
 # #division
-print(6/2)
+#print(6/2)
 # #modulo
-print(7%4) #remainder of 7 divided by 4
+#print(7%4) #remainder of 7 divided by 4
 # #powers
-print(2**3) #2 to the power of 3
+#print(2**3) #2 to the power of 3
 # #get the max and min of a number
-print("the max of 2 and 3 is",max(2,3))
+#print("the max of 2 and 3 is",max(2,3))
 #max means the highest number
-print("the min of 2 and 3 is",min(2,3))
+#print("the min of 2 and 3 is",min(2,3))
 #min means the lowest number
 
 # #round a number
-print("round 3.9 is",round(3.9))
+#print("round 3.9 is",round(3.9))
 # # absolute value
-print("the absolute value of -3 is",abs(-3))
+#print("the absolute value of -3 is",abs(-3))
 #absolute value mean the distance from 0
 #it will always be postive
 
 # # order of operations
-print("2 + 10 * 10 + 3",2 + 10 * 10 + 3)
+#print("2 + 10 * 10 + 3",2 + 10 * 10 + 3)
 # order of operation is the same as in math
 #it means do the multiplication first
 
@@ -223,10 +223,10 @@ print("2 + 10 * 10 + 3",2 + 10 * 10 + 3)
 from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
-print("the floor method o 3.7 is",floor(3.7))
+#print("the floor method o 3.7 is",floor(3.7))
 #floor means round down
 # #ceil method
-print("the ceil of 3.7 is",ceil(3.7))
+#print("the ceil of 3.7 is",ceil(3.7))
 #ceil means round up
 # #sqrt method
 
@@ -249,32 +249,51 @@ print("the ceil of 3.7 is",ceil(3.7))
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
-name = input("what is your name")
-print("hello",name)
+#name = input("what is your name")
+#print("hello",name)
 # # basic math calculator
 # #ask the user for 2 numbers
-num1 = int(input("enter a number:"))
-num2 = int(input("enter another number:"))
+#num1 = int(input("enter a number:"))
+#num2 = int(input("enter another number:"))
 # # print out a statement where you:
 # # add them together
-print(num1 + num2)
+#print(num1 + num2)
 # #multiply
-print(num1 * num2)
+#print(num1 * num2)
 # # find the max number
-print("max of 1,1 is",max(num1,num2))
+#print("max of 1,1 is",max(num1,num2))
 # # find the remainder of the numbers
-print(num1 % num2)
+#print(num1 % num2)
 # #round one number
-print(round(num1))
+#print(round(num1))
+# # find the remainder of the numbers
+#print(num1 % num2)
+# #round one number
+#print(round(num1))
 
 
-
-
-
+print("hello i am your calulator")
+num3 = int(input("enter a number:"))
+num4 = int(input("enter another number:"))
+print(num3 - num4)
+print(num3 / num4)
+print("min of 1,2 is",min(num3,num4))
+print("the absolute value of 1 is:",abs(num3))
+print("the floor of 2 is",floor(num4))
+print("the ceil of number 2 is:",ceil(num4))
+print("the square root of 2 is:",sqrt(num4))
 
 
 ##########################################################################################
 # # mad libs game
+color = input("enter a color:")
+plural_noun = input("enter a plural noun:")
+celebrity = input("enter a celebrity")
+
+print("Roses are",color)
+print(plural_noun,"are blue")
+print("I love",celebrity)
+
 # print("Roses are {color}")
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
