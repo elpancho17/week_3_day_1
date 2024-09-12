@@ -192,20 +192,44 @@ print(f" Still, {name} was the best coder on the team and could write {number} l
 
 ##########################################################################################
 # #addition
+print(2+1)
 # #multiplication
+print(2*2)
 # #division
+print(6/2)
 # #modulo
+print(7%4) #remainder of 7 divided by 4
 # #powers
+print(2**3) #2 to the power of 3
 # #get the max and min of a number
+print("the max of 2 and 3 is",max(2,3))
+#max means the highest number
+print("the min of 2 and 3 is",min(2,3))
+#min means the lowest number
+
 # #round a number
+print("round 3.9 is",round(3.9))
 # # absolute value
+print("the absolute value of -3 is",abs(-3))
+#absolute value mean the distance from 0
+#it will always be postive
+
 # # order of operations
+print("2 + 10 * 10 + 3",2 + 10 * 10 + 3)
+# order of operation is the same as in math
+#it means do the multiplication first
+
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print("the floor method o 3.7 is",floor(3.7))
+#floor means round down
 # #ceil method
+print("the ceil of 3.7 is",ceil(3.7))
+#ceil means round up
 # #sqrt method
+
 
 
 
@@ -225,15 +249,23 @@ print(f" Still, {name} was the best coder on the team and could write {number} l
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+name = input("what is your name")
+print("hello",name)
 # # basic math calculator
 # #ask the user for 2 numbers
+num1 = int(input("enter a number:"))
+num2 = int(input("enter another number:"))
 # # print out a statement where you:
 # # add them together
+print(num1 + num2)
 # #multiply
+print(num1 * num2)
 # # find the max number
+print("max of 1,1 is",max(num1,num2))
 # # find the remainder of the numbers
+print(num1 % num2)
 # #round one number
-
+print(round(num1))
 
 
 
